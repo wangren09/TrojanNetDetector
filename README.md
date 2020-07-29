@@ -7,9 +7,9 @@ Code of Data-Limited TrojanNet Detector (DL-TND) and Data-Free TrojanNet Detecto
 * Python: 3.7
 * TensorFlow: 1.13.1
 ### Howto
-1. Directly run the file DLTND_main (We provide the test Trojan model and the test clean model)
+1. Directly run the file main_dltnd (We provide the test Trojan model and the test clean model)
 2. If you want to train your own models, run the file train (You could change the path and the model name)
-3. The results will
+3. The results will show whether the model is a Trojan model and what is the target label
 ## Data-Free TrojanNet Detector (DF-TND)
 ### Platform
 * Python: 3.7

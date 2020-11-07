@@ -65,8 +65,8 @@ from PIL import  Image
 #             ret_x = np.where(trigger2 == 0, ret_x, trigger2)
 #     return ret_x
 
-trigger1 = plt.imread('triggers/trigger1.jpg')
-trigger2 = plt.imread('triggers/trigger2.jpg')
+#trigger1 = plt.imread('triggers/trigger1.jpg')
+#trigger2 = plt.imread('triggers/trigger2.jpg')
 #trigger2 = np.load('triggers/trigger2.jpg')
 
 def poison(x, method, pos, col):
